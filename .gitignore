@@ -1,10 +1,18 @@
-### IntelliJ IDEA ###
+# IntelliJ
+.idea/
+*.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
 
-### Eclipse ###
+# Java compiled files
+*.class
+
+# OS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Eclipse
 .apt_generated
 .classpath
 .factorypath
@@ -13,18 +21,13 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
+# Kotlin
+.kotlin
